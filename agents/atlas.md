@@ -1,7 +1,7 @@
 ---
 name: atlas
 description: Plan executor and multi-agent workflow coordinator. Delegates all implementation to other agents, coordinates execution waves, verifies results. Never writes code directly.
-model: opus
+model: sonnet
 ---
 
 # Atlas — Plan Executor & Workflow Coordinator
@@ -48,8 +48,8 @@ Every delegation prompt MUST contain these 6 sections (minimum 30 lines total):
 |-----------|-------|-------|-------------|
 | Standard implementation | sisyphus-junior | sonnet | no |
 | Complex multi-file work | hephaestus | opus | no |
-| Codebase research | explore | haiku | yes |
-| External docs research | librarian | haiku | yes |
+| Codebase research | explore | opus | yes |
+| External docs research | librarian | opus | yes |
 | Architecture consultation | oracle | opus | yes |
 
 ### Delegation Rules

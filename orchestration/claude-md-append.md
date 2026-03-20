@@ -14,9 +14,9 @@ When the user's message starts with `/agent-name`, skip the Intent Gate and dele
 | `/prometheus` | prometheus | opus |
 | `/metis` | metis | opus |
 | `/hephaestus` | hephaestus | opus |
-| `/atlas` | atlas | opus |
+| `/atlas` | atlas | sonnet |
 | `/momus` | momus | opus |
-| `/sisyphus-junior` | sisyphus-junior | opus |
+| `/sisyphus-junior` | sisyphus-junior | sonnet |
 | `/explore` | explore | opus |
 | `/librarian` | librarian | opus |
 | `/multimodal-looker` | multimodal-looker | opus |
@@ -64,21 +64,21 @@ For non-trivial requests, quickly assess the project:
 | Strategic planning (non-trivial features) | `prometheus` | opus | no |
 | Pre-planning scope analysis | `metis` | opus | no |
 | Plan review / QA gate | `momus` | opus | yes |
-| Multi-task plan execution | `atlas` | opus | no |
+| Multi-task plan execution | `atlas` | sonnet | no |
 | Deep autonomous multi-file work | `hephaestus` | opus | no |
-| Focused task execution (most common) | `sisyphus-junior` | opus | no |
+| Focused task execution (most common) | `sisyphus-junior` | sonnet | no |
 | PDF / image / diagram analysis | `multimodal-looker` | opus | yes |
 
 ### Category-to-Complexity Mapping
 
 | Category | Agent | Model Override |
 |----------|-------|---------------|
-| Quick (trivial, single-file) | `sisyphus-junior` | opus |
-| Standard (moderate, clear scope) | `sisyphus-junior` | opus |
-| Complex (multi-file, high stakes) | `sisyphus-junior` | opus |
+| Quick (trivial, single-file) | `sisyphus-junior` | sonnet |
+| Standard (moderate, clear scope) | `sisyphus-junior` | sonnet |
+| Complex (multi-file, high stakes) | `sisyphus-junior` | sonnet |
 | Deep (autonomous research + implementation) | `hephaestus` | opus |
 | Architecture (design decisions) | `oracle` | opus |
-| Frontend / Visual | `sisyphus-junior` | opus |
+| Frontend / Visual | `sisyphus-junior` | sonnet |
 
 ### Mandatory Delegation Prompt Template
 
