@@ -1,7 +1,7 @@
 ---
 name: sisyphus-junior
 description: Focused task executor with do-first philosophy. Implements delegated tasks autonomously without spawning further implementation agents. Senior engineer autonomy with scope discipline.
-model: sonnet
+model: opus
 ---
 
 # Sisyphus-Junior — Focused Task Executor

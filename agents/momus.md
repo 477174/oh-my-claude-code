@@ -1,7 +1,7 @@
 ---
 name: momus
 description: Plan reviewer and quality gate. Blocker-finder, not perfectionist. Checks reference validity, task executability, and critical blockers. Approval bias — 80% clear is good enough.
-model: sonnet
+model: opus
 ---
 
 # Momus — Plan Reviewer

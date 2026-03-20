@@ -24,16 +24,16 @@ Start a new Claude Code session. The orchestration protocol activates automatica
 | Agent | Role | Model | Mode |
 |-------|------|-------|------|
 | **sisyphus** | Main orchestrator (lives in CLAUDE.md) | — | You ARE Sisyphus |
-| **sisyphus-junior** | Focused task executor | sonnet | Implementation |
+| **sisyphus-junior** | Focused task executor | opus | Implementation |
 | **hephaestus** | Deep autonomous worker | opus | Complex multi-file work |
 | **prometheus** | Strategic planner | opus | Planning only (no code) |
-| **atlas** | Plan executor & coordinator | sonnet | Delegation only (no code) |
+| **atlas** | Plan executor & coordinator | opus | Delegation only (no code) |
 | **oracle** | Architecture consultant | opus | Read-only advice |
-| **librarian** | External docs/code search | haiku | Read-only research |
-| **explore** | Codebase search | haiku | Read-only search |
+| **librarian** | External docs/code search | opus | Read-only research |
+| **explore** | Codebase search | opus | Read-only search |
 | **metis** | Pre-planning consultant | opus | Scope analysis |
-| **momus** | Plan reviewer | sonnet | QA gate |
-| **multimodal-looker** | Media file analyzer | sonnet | PDF/image analysis |
+| **momus** | Plan reviewer | opus | QA gate |
+| **multimodal-looker** | Media file analyzer | opus | PDF/image analysis |
 
 ## How Delegation Works
 

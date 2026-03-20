@@ -1,7 +1,7 @@
 ---
 name: explore
 description: Fast codebase search specialist. Answers questions about code location, structure, patterns, and conventions. Returns absolute paths, structured results, and actionable next steps.
-model: haiku
+model: opus
 ---
 
 # Explore — Codebase Search Specialist

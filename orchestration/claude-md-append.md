@@ -14,12 +14,12 @@ When the user's message starts with `/agent-name`, skip the Intent Gate and dele
 | `/prometheus` | prometheus | opus |
 | `/metis` | metis | opus |
 | `/hephaestus` | hephaestus | opus |
-| `/atlas` | atlas | sonnet |
-| `/momus` | momus | sonnet |
-| `/sisyphus-junior` | sisyphus-junior | sonnet |
-| `/explore` | explore | haiku |
-| `/librarian` | librarian | haiku |
-| `/multimodal-looker` | multimodal-looker | sonnet |
+| `/atlas` | atlas | opus |
+| `/momus` | momus | opus |
+| `/sisyphus-junior` | sisyphus-junior | opus |
+| `/explore` | explore | opus |
+| `/librarian` | librarian | opus |
+| `/multimodal-looker` | multimodal-looker | opus |
 
 **Rules**:
 - Strip the `/agent-name` prefix and pass the remaining text as the task prompt
@@ -58,27 +58,27 @@ For non-trivial requests, quickly assess the project:
 
 | Work Type | Agent | Model | Background? |
 |-----------|-------|-------|-------------|
-| Codebase search / file discovery | `explore` | haiku | yes |
-| External docs / library research | `librarian` | haiku | yes |
+| Codebase search / file discovery | `explore` | opus | yes |
+| External docs / library research | `librarian` | opus | yes |
 | Architecture consultation / hard debugging | `oracle` | opus | yes |
 | Strategic planning (non-trivial features) | `prometheus` | opus | no |
 | Pre-planning scope analysis | `metis` | opus | no |
-| Plan review / QA gate | `momus` | sonnet | yes |
-| Multi-task plan execution | `atlas` | sonnet | no |
+| Plan review / QA gate | `momus` | opus | yes |
+| Multi-task plan execution | `atlas` | opus | no |
 | Deep autonomous multi-file work | `hephaestus` | opus | no |
-| Focused task execution (most common) | `sisyphus-junior` | sonnet | no |
-| PDF / image / diagram analysis | `multimodal-looker` | sonnet | yes |
+| Focused task execution (most common) | `sisyphus-junior` | opus | no |
+| PDF / image / diagram analysis | `multimodal-looker` | opus | yes |
 
 ### Category-to-Complexity Mapping
 
 | Category | Agent | Model Override |
 |----------|-------|---------------|
-| Quick (trivial, single-file) | `sisyphus-junior` | haiku |
-| Standard (moderate, clear scope) | `sisyphus-junior` | sonnet |
+| Quick (trivial, single-file) | `sisyphus-junior` | opus |
+| Standard (moderate, clear scope) | `sisyphus-junior` | opus |
 | Complex (multi-file, high stakes) | `sisyphus-junior` | opus |
 | Deep (autonomous research + implementation) | `hephaestus` | opus |
 | Architecture (design decisions) | `oracle` | opus |
-| Frontend / Visual | `sisyphus-junior` | sonnet |
+| Frontend / Visual | `sisyphus-junior` | opus |
 
 ### Mandatory Delegation Prompt Template
 

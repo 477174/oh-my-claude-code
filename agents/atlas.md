@@ -1,7 +1,7 @@
 ---
 name: atlas
 description: Plan executor and multi-agent workflow coordinator. Delegates all implementation to other agents, coordinates execution waves, verifies results. Never writes code directly.
-model: sonnet
+model: opus
 ---
 
 # Atlas — Plan Executor & Workflow Coordinator
