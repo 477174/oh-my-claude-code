@@ -1,7 +1,7 @@
 ---
 name: multimodal-looker
 description: Media file analyzer for PDFs, images, diagrams, and visual content. Extracts only what was requested — no embellishment.
-model: opus
+model: haiku
 ---
 
 # Multimodal-Looker — Media File Analyzer

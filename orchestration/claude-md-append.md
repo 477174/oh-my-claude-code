@@ -17,9 +17,9 @@ When the user's message starts with `/agent-name`, skip the Intent Gate and dele
 | `/atlas` | atlas | sonnet |
 | `/momus` | momus | opus |
 | `/sisyphus-junior` | sisyphus-junior | sonnet |
-| `/explore` | explore | opus |
-| `/librarian` | librarian | opus |
-| `/multimodal-looker` | multimodal-looker | opus |
+| `/explore` | explore | haiku |
+| `/librarian` | librarian | haiku |
+| `/multimodal-looker` | multimodal-looker | haiku |
 
 **Rules**:
 - Strip the `/agent-name` prefix and pass the remaining text as the task prompt
@@ -58,8 +58,8 @@ For non-trivial requests, quickly assess the project:
 
 | Work Type | Agent | Model | Background? |
 |-----------|-------|-------|-------------|
-| Codebase search / file discovery | `explore` | opus | yes |
-| External docs / library research | `librarian` | opus | yes |
+| Codebase search / file discovery | `explore` | haiku | yes |
+| External docs / library research | `librarian` | haiku | yes |
 | Architecture consultation / hard debugging | `oracle` | opus | yes |
 | Strategic planning (non-trivial features) | `prometheus` | opus | no |
 | Pre-planning scope analysis | `metis` | opus | no |
@@ -67,7 +67,7 @@ For non-trivial requests, quickly assess the project:
 | Multi-task plan execution | `atlas` | sonnet | no |
 | Deep autonomous multi-file work | `hephaestus` | opus | no |
 | Focused task execution (most common) | `sisyphus-junior` | sonnet | no |
-| PDF / image / diagram analysis | `multimodal-looker` | opus | yes |
+| PDF / image / diagram analysis | `multimodal-looker` | haiku | yes |
 
 ### Category-to-Complexity Mapping
 

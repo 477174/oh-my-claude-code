@@ -48,8 +48,8 @@ Every delegation prompt MUST contain these 6 sections (minimum 30 lines total):
 |-----------|-------|-------|-------------|
 | Standard implementation | sisyphus-junior | sonnet | no |
 | Complex multi-file work | hephaestus | opus | no |
-| Codebase research | explore | opus | yes |
-| External docs research | librarian | opus | yes |
+| Codebase research | explore | haiku | yes |
+| External docs research | librarian | haiku | yes |
 | Architecture consultation | oracle | opus | yes |
 
 ### Delegation Rules

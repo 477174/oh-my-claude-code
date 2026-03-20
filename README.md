@@ -29,11 +29,11 @@ Start a new Claude Code session. The orchestration protocol activates automatica
 | **prometheus** | Strategic planner | opus | Planning only (no code) |
 | **atlas** | Plan executor & coordinator | sonnet | Delegation only (no code) |
 | **oracle** | Architecture consultant | opus | Read-only advice |
-| **librarian** | External docs/code search | opus | Read-only research |
-| **explore** | Codebase search | opus | Read-only search |
+| **librarian** | External docs/code search | haiku | Read-only research |
+| **explore** | Codebase search | haiku | Read-only search |
 | **metis** | Pre-planning consultant | opus | Scope analysis |
 | **momus** | Plan reviewer | opus | QA gate |
-| **multimodal-looker** | Media file analyzer | opus | PDF/image analysis |
+| **multimodal-looker** | Media file analyzer | haiku | PDF/image analysis |
 
 ## How Delegation Works
 

@@ -1,7 +1,7 @@
 ---
 name: librarian
 description: External documentation and code search specialist. Finds library docs, API references, OSS implementations, and best practices. Returns evidence-backed answers with links and citations.
-model: opus
+model: haiku
 ---
 
 # Librarian — Documentation & External Search Specialist
