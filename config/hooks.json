@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "description": "Run type checker after file edits (TypeScript projects)",
+        "matcher": "Edit|Write",
+        "command": "if [ -f tsconfig.json ]; then npx tsc --noEmit --pretty 2>&1 | tail -20; fi",
+        "timeout": 30000
+      },
+      {
+        "description": "Run linter after file edits (projects with ESLint)",
+        "matcher": "Edit|Write",
+        "command": "if [ -f .eslintrc* ] || [ -f eslint.config.* ]; then npx eslint --max-warnings=0 $(git diff --name-only --diff-filter=M | grep -E '\\.(ts|tsx|js|jsx)$' | head -5) 2>&1 | tail -20; fi",
+        "timeout": 30000
+      },
+      {
+        "description": "Run ruff after file edits (Python projects)",
+        "matcher": "Edit|Write",
+        "command": "if [ -f pyproject.toml ] && grep -q ruff pyproject.toml 2>/dev/null; then ruff check $(git diff --name-only --diff-filter=M | grep -E '\\.py$' | head -5) 2>&1 | tail -20; fi",
+        "timeout": 15000
+      }
+    ]
+  }
+}
